@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Why Another Developer's Blog"
+date:   2016-03-09 14:57:18 +0300
+categories: blog common
+---
+
+Last month I started to find more and more twitter messages and blog posts encouraging people to start writing about development.
+They say writing is essential for learning and also one of the ways to contribute to open source.
+
+The last straw was [Todd Motto's talk at NG-NL](https://youtu.be/oO0b7iplgYY) where he tells that everyone has something to teach others.
+
+Now I'm in vacation and finally have enough time to spend it on learning.
+So I decided to start this blog to put my knowledge in order and to share it with you.
+Maybe something that is useful for me can be useful for you too. Hope so.
+
+My current plan is to release one post per week, where I can share the things I've learned during that week.
+
+I will appreciate your feedback in comments below each blog post.
