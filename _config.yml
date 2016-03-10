@@ -16,3 +16,8 @@ github_username:  Antontelesh
 
 # Build settings
 markdown: kramdown
+gems:
+  - octopress-autoprefixer
+  - bourbon
+  - neat
+  - github-pages

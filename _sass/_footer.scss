@@ -1,0 +1,29 @@
+.site-footer {
+	@include row;
+	background: #f5f5f5;
+	padding: 10px 0;
+	font-size: $small-font-size;
+
+	.container,
+	&__content {
+		height: 100%;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	&__column {
+		min-width: 150px;
+		padding: ($spacing-unit / 2) 0;
+		margin-right: $spacing-unit;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

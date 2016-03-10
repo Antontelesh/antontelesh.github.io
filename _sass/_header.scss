@@ -1,0 +1,19 @@
+.site-header {
+
+	padding: 10px 0;
+	border-bottom: 1px solid $grey-color-light;
+
+	&__content {
+		@include row;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	&__title {
+		flex-grow: 1;
+	}
+
+
+}

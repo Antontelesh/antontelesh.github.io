@@ -1,16 +1,16 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+  <div class="container">
+    <div class="site-footer__content">
+      <div class="site-footer__column">
         <ul class="contact-list">
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+          <li>
+            <a href="mailto:{{ site.email }}">
+              <span class="icon icon--email">{% include icon-email.svg %}</span>
+              <span class="username">{{ site.email }}</span>
+            </a>
+          </li>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -25,11 +25,22 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <div class="site-footer__column">
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+      </div>
+
+      <div class="site-footer__column">
+        <div class="copyright">
+          <div>
+            All materials are under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a> license.
+          </div>
+
+          <div>
+            Icons made by <a href="http://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
 
 </footer>

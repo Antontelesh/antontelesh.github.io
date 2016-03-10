@@ -1,0 +1,28 @@
+.post-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	&__post {
+		margin-bottom: 10px;
+	}
+}
+
+.post-list-item {
+
+	&__title {
+		margin-top: 0;
+	}
+
+	&__meta {
+		color: $grey-color;
+		font-size: $small-font-size;
+	}
+
+	&__link {
+		&:visited {
+			color: darken($brand-color, 15%);
+		}
+	}
+
+}

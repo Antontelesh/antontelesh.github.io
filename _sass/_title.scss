@@ -1,0 +1,17 @@
+.site-title {
+	font-size: 30px;
+	line-height: 1;
+	font-weight: 300;
+	color: $grey-color;
+	text-decoration: none;
+
+	&:visited {
+		color: $grey-color;
+	}
+
+	&:hover,
+	&:active {
+		text-decoration: none;
+		color: $grey-color-dark;
+	}
+}
