@@ -18,6 +18,4 @@ github_username:  Antontelesh
 markdown: kramdown
 gems:
   - octopress-autoprefixer
-  - bourbon
-  - neat
   - github-pages
