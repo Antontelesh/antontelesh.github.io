@@ -14,7 +14,7 @@ Most of the principles they teach are universal and applicable to JavaScript wor
 One of my favorite speakers is Sandi Metz ([@sandimetz](https://twitter.com/sandimetz)).
 She is a great teacher and has a lot of experience.
 Each of her talks found on YouTube is very interesting.
-I recommend wathing them all.
+I recommend watching them all.
 
 But now I want to speak about [one exact Sandi's talk](https://youtu.be/8bZh5LMaSmE) which is about refactoring.
 In this talk Sandi takes some code, measures its complexity, then does some refactoring and again measures code complexity.
