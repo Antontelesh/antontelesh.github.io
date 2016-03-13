@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Unfinished Refactoring"
-date:   2016-03-09 14:57:18 +0300
+date:   2016-03-13 11:35:00 +0300
 categories: refactoring complexity
 ---
 
@@ -18,7 +18,8 @@ I recommend wathing them all.
 
 But now I want to speak about [one exact Sandi's talk](https://youtu.be/8bZh5LMaSmE) which is about refactoring.
 In this talk Sandi takes some code, measures its complexity, then does some refactoring and again measures code complexity.
-It's predictable that after all refactoring the code will be less complex.
+After all refactoring the code will be less complex.
+It's predictable.
 That's the goal of refactoring.
 But what's interesting is that *during* refactoring code complexity increases.
 
