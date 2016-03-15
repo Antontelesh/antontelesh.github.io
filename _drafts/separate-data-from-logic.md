@@ -2,7 +2,7 @@
 layout: post
 title:  "Separate Data From Logic"
 date:   2016-03-09 14:57:18 +0300
-categories: patterns generic javascript
+categories: common
 ---
 
 Some time ago I was making one big mistake when writing code — I was coupling data with logic.
