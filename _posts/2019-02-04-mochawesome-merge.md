@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Configuring Mochawesome reporter to Cypress"
+title: "Integrating Mochawesome reporter with Cypress"
 date: 2019-02-04 12:55:00 +0300
 categories: testing
 ---
